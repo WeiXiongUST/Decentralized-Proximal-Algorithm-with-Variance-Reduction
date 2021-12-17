@@ -60,7 +60,6 @@ class LogisticRegression(Problem):
         super().__init__(num_agent, num_data, dim, sigma, lamb, X, Y)
 
     def _logit(self, X, w):
-        #print(-X.dot(w))
         return 1 / (1 + np.exp(-X.dot(w)))
 
     def grad(self, w, i=None, j=None):
