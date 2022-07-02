@@ -1,4 +1,5 @@
-This repository contains the code used for the paper "PMGT-VR: A decentralized proximal-gradient algorithmic framework with variance reduction". The implementation is inspired by the work of Boyue Li (see https://github.com/liboyue/Network-Distributed-Algorithm) but is simplified. 
+# README
+This repository contains the code used for the paper ["PMGT-VR: A decentralized proximal-gradient algorithmic framework with variance reduction".](https://arxiv.org/abs/2012.15010) The implementation is inspired by the work of Boyue Li (see https://github.com/liboyue/Network-Distributed-Algorithm) but is simplified. 
 
 ## Requirement 
 - matplotlib
@@ -23,7 +24,7 @@ The details of matrix generalization can be found in the function ring_graph2 in
 
 ### Condition Number
 
-We use two regularization parameters to control the condition number $\kappa$, referred as e5 (small $\kappa$) and e7 (large $\kappa$).
+We use two regularization parameters to control the condition number, referred to as e5 for small one and e7 for large one. A large condition number corresponds to a hard problem.
 
 
 ### Hyper-Parameters
